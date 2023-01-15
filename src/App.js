@@ -1,5 +1,5 @@
 import './App.css';
-import { useEffect, useState } from 'react';
+import {  useEffect, useState } from 'react';
 
 function App() {
   const [naziv, setNaziv] = useState("");
@@ -10,6 +10,8 @@ function App() {
       playaudio(event.key.toUpperCase());
       setNaziv(event.key.toUpperCase());
     });
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const buttonArray = [

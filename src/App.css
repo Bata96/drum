@@ -17,7 +17,6 @@
 .dugmad {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-around;
   border-bottom: none;
   padding: 15px;
 }
